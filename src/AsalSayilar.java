@@ -1,7 +1,5 @@
 public class AsalSayilar {
     public static void main(String[] args) {
-
-        int sayac = 0;
         for(int sayi=2;sayi<=250;sayi++)
         {
             int kontrol = 0;
@@ -13,11 +11,9 @@ public class AsalSayilar {
                     break;
                 }
             }
-
             if(kontrol==0)
             {
                 System.out.print(sayi+"\n");
-                sayac++;
             }
         }
     }
